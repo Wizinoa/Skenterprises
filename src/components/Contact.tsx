@@ -96,7 +96,7 @@ const [errors, setErrors] = useState<Partial<FormType>>({});
               <img src="https://res.cloudinary.com/dkhuwectt/image/upload/v1777457179/Icon_1_kt0n0z.png" className="w-5"/>
              <div>
               <p>Headquarters & Parlor</p>
-              <p>No: 7-1-138, Near Siva Matters & Paravai Market, Auto Nagar Main Road, Paravai, Madurai-625402, Tamil Nadu</p>
+              <p>No: 7-1-138, Near Siva Matters & Paravai Market, Auto Nagar Main Road, Paravai, Madurai-625402</p>
               </div>
             </div>
 
@@ -104,7 +104,7 @@ const [errors, setErrors] = useState<Partial<FormType>>({});
               <img src="https://res.cloudinary.com/dkhuwectt/image/upload/v1777457176/Phone_call_oragps.png" className="w-5"/>
             <div>
               <p>Phone</p>
-              <p>+91 90000 00000</p>
+              <p>+91 82208 83187</p>
               </div>
             </div>
 
@@ -112,7 +112,7 @@ const [errors, setErrors] = useState<Partial<FormType>>({});
               <img src="https://res.cloudinary.com/dkhuwectt/image/upload/v1777457173/Mail_s1roni.png" className="w-5"/>
              <div>
               <p>Email</p>
-              <p>info@skenterprises.in</p>
+              <p>selva87.ece@gmail.com</p>
               </div>
             </div>
 
@@ -128,7 +128,7 @@ const [errors, setErrors] = useState<Partial<FormType>>({});
 
           <button
   onClick={() => {
-    const address = "No: 7-1-138, Near Siva Matters & Paravai Market, Auto Nagar Main Road, Paravai, Madurai-625402, Tamil Nadu";
+    const address = "1-138, 7th St, AIBEA A Colony, Paravai, Tamil Nadu 625402";
     const url = `https://www.google.com/maps?q=${encodeURIComponent(address)}`;
     window.open(url, "_blank");
   }}
