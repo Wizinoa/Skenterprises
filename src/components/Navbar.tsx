@@ -21,8 +21,8 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center gap-3">
           <img
-            src="https://res.cloudinary.com/dkhuwectt/image/upload/v1777442148/ice-cream-cone_1_im4ayn.png"
-            className="w-10 h-10"
+            src="https://res.cloudinary.com/dkhuwectt/image/upload/v1779095518/Logo_3_cmggza.png"
+            className="w-10 h-10 rounded-full object-cover"
           />
           <h1 className="text-sm md:text-lg font-semibold">
             SK <br />
