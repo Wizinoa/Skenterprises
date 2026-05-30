@@ -11,7 +11,7 @@ const Footer = () => {
         {/* Logo & Brand */}
         <div className="flex flex-col items-center gap-3 mb-10">
           <img
-            src="https://res.cloudinary.com/dkhuwectt/image/upload/v1777442148/ice-cream-cone_1_im4ayn.png"
+            src="https://res.cloudinary.com/dkhuwectt/image/upload/v1779095518/Logo_3_cmggza.png"
             alt="SK Enterprises Logo"
             className="w-16 h-16 object-contain"
           />
