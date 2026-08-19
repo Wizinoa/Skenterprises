@@ -58,6 +58,18 @@ const Footer = () => {
         <p className="text-xs text-white/60 tracking-wide">
           © 2026 SK Enterprises. All rights reserved.
         </p>
+                {/* Designed By */}
+        <p className="mt-3 text-xs sm:text-sm text-white/60 tracking-wide">
+          Designed by{" "}
+          <a
+            href="https://wizinoa.com/"
+            className="underline font-semibold text-white hover:text-blue-400 transition-colors duration-200"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            WizInoa
+          </a>
+        </p>
       </div>
     </footer>
   );
